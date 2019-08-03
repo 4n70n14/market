@@ -9,6 +9,7 @@ body{
     height: 100%;
     margin: 0;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 body{
@@ -76,5 +77,33 @@ header .linha .usuario >i{
 } 
 
 header #barra-busca{
-    background-color: #000;
+   border: none;
+   position: absolute;
+   min-width: 159px;
+    width: calc(100 -175px);
+    max-width: 50%;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 20px;
+   top: 10px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #673ab7dd;
+
 } 
+
+header #barra-busca:focus{
+    outline: none;
+}
+
+header nav.secoes {
+    
+}
+
+header nav.secoes a {
+    color: #fff;
+}
+
+header nav.secoes span{
+    color: #fff;
+}
